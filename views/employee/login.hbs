@@ -1,0 +1,25 @@
+
+
+
+<form action="" method="POST" autocomplete="off">
+   {{!-- <input type="hidden" name="_id" value="{{register._id}}"> --}}
+   <div class="form-row">
+      <div class="form-group col-md-6">
+         <label>Email</label>
+         <input type="text" class="form-control" name="email" placeholder="taufique316@gmail.com" value="{{login.email}}">
+         <div class="text-danger">
+         </div>
+      </div>
+      {{!--  --}}
+       
+         <div class="form-group col-md-6">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password" placeholder="........" value="{{login.password}}">
+         </div>
+      
+      {{!--  --}}
+   </div>
+   <div class="form-group">
+      <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button> 
+   </div>
+</form>
